@@ -13,6 +13,7 @@
 		495472F0251F191F0022AD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495472EE251F191F0022AD8E /* Main.storyboard */; };
 		495472F2251F19260022AD8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495472F1251F19260022AD8E /* Assets.xcassets */; };
 		495472F5251F19260022AD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495472F3251F19260022AD8E /* LaunchScreen.storyboard */; };
+		BA3AA590251F400300343A28 /* myStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3AA58F251F400300343A28 /* myStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		495472F1251F19260022AD8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495472F4251F19260022AD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		495472F6251F19260022AD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3AA58F251F400300343A28 /* myStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = myStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,20 @@
 				495472EA251F191F0022AD8E /* SceneDelegate.swift */,
 				495472EC251F191F0022AD8E /* ViewController.swift */,
 				495472EE251F191F0022AD8E /* Main.storyboard */,
+				BA3AA591251F400800343A28 /* secondStoryboard */,
 				495472F1251F19260022AD8E /* Assets.xcassets */,
 				495472F3251F19260022AD8E /* LaunchScreen.storyboard */,
 				495472F6251F19260022AD8E /* Info.plist */,
 			);
 			path = TestGitHubProj;
+			sourceTree = "<group>";
+		};
+		BA3AA591251F400800343A28 /* secondStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				BA3AA58F251F400300343A28 /* myStoryboard.storyboard */,
+			);
+			path = secondStoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				495472F5251F19260022AD8E /* LaunchScreen.storyboard in Resources */,
+				BA3AA590251F400300343A28 /* myStoryboard.storyboard in Resources */,
 				495472F2251F19260022AD8E /* Assets.xcassets in Resources */,
 				495472F0251F191F0022AD8E /* Main.storyboard in Resources */,
 			);
